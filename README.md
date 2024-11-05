@@ -25,7 +25,7 @@ To automate the process of starting Redis on WSL with a password prompt, follow 
     ```bash
      #!/bin/bash
     echo "Starting Redis with prompt..."
-    echo "asimLuna88!" | sudo -S service redis-server start
+    echo "your_password_here" | sudo -S service redis-server start
     ```
     **Make the Script Accessible Only to You**: Restrict access to the script so only your user account can read or execute it:
     ```bash
